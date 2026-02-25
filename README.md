@@ -8,7 +8,7 @@ The script scans all user tables in the currently connected database, evaluates 
 
 Compatible with SQL Server 2017 / 2019 / 2022.
 
----
+
 
 ## Context
 
@@ -21,7 +21,7 @@ The assignment focused on:
 - Applying dynamic index maintenance
 - Producing an execution summary
 
----
+
 
 ## Technical Approach
 
@@ -31,7 +31,7 @@ A cursor retrieves all user tables from `sys.tables` (excluding system tables).
 
 Each table is processed sequentially, and its associated indexes are analyzed.
 
----
+
 
 ### Fragmentation Analysis
 
@@ -45,7 +45,7 @@ The script evaluates:
 - Page count
 - Index type (clustered / nonclustered)
 
----
+
 
 ### Maintenance Strategy
 
@@ -57,7 +57,7 @@ Fragmentation thresholds determine the action:
 
 Dynamic SQL is used to execute maintenance operations safely.
 
----
+
 
 ### Execution Summary
 
@@ -73,7 +73,7 @@ When the script completes, it outputs:
 
 This provides visibility similar to production maintenance jobs.
 
----
+
 
 ## Design Considerations
 
@@ -83,7 +83,7 @@ This provides visibility similar to production maintenance jobs.
 - Script is executable with a single F5 run
 - Designed for repeatable execution
 
----
+
 
 ## Example Output
 
