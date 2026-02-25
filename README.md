@@ -1,4 +1,4 @@
-# Index Fragmentation Management with Cursors
+### Index Fragmentation Management with Cursors
 
 ### Overview
 
