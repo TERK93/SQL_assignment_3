@@ -1,6 +1,6 @@
 # Index Fragmentation Management with Cursors
 
-## Overview
+### Overview
 
 This project implements a cursor-based index maintenance script for Microsoft SQL Server.
 
@@ -10,7 +10,7 @@ Compatible with SQL Server 2017 / 2019 / 2022.
 
 
 
-## Context
+### Context
 
 Developed as part of the SQL course in the Data Engineering program at Nackademin (Higher Vocational Education, Sweden).
 
@@ -23,7 +23,7 @@ The assignment focused on:
 
 
 
-## Technical Approach
+### Technical Approach
 
 ### Cursor Logic
 
@@ -75,7 +75,7 @@ This provides visibility similar to production maintenance jobs.
 
 
 
-## Design Considerations
+### Design Considerations
 
 - Only user tables are included
 - System objects are excluded
@@ -85,7 +85,7 @@ This provides visibility similar to production maintenance jobs.
 
 
 
-## Example Output
+### Example Output
 
 ```
 Started: 2026-01-01 10:00:00
